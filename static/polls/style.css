@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Secular One', sans-serif;
+
+}
+
+
+
+:root {
+    --text-color: black;
+    --bg: #eeeeee;
+    --fonts: "lato";
+
+}
+
+body,
+.main {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--bg);
+}
+
+.main {
+    position: absolute;
+    height: auto;
+    top: 25%;
+}
+
+.logo {
+
+    font-weight: bold;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.search-bar-container {
+    width: 100vw;
+    height: auto;
+}
+
+.search-bar-form {
+
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    height: auto;
+    gap: 12px;
+    padding: 24px;
+
+}
+
+.search-bar {
+    flex: 3;
+    border: 1px solid rgb(220, 220, 220);
+    font-size: 1.2rem;
+    border-radius: 100px;
+    padding: 16px;
+}
+
+.search-bar-btn {
+    height: 60px;
+    width: 60px;
+    background-color: var(--text-color);
+    border: 0px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+}
+
+.search-bar-btn svg {
+    height: 30px;
+    color: white;
+}
+
+.cloud {
+
+
+    display: flex;
+    justify-content: center;
+    padding: 28px 0px;
+    align-items: flex-end;
+}
+
+.cloud img {
+
+
+
+    z-index: 8;
+
+}
